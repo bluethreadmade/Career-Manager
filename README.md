@@ -25,10 +25,6 @@ The next item on the roadmap is the goal management feature. This is currently u
 - PostgreSQL - database for users and resume data
 - pg (node-postgres) - PostgreSQL client for database queries
 
-Vite
-ESLINT
-Prettier
-
 ### Authentication
 - Supabase
 
