@@ -1,15 +1,11 @@
-import { useEffect, useState } from 'react'
+import { Outlet } from "react-router-dom";
 
 function App() {
-  const [message, setMessage] = useState('')
-
-  useEffect(() => {
-    fetch('http://localhost:5000/')
-      .then((res) => res.text())
-      .then(setMessage)
-  }, [])
-
-  return <h1>{message}</h1>
+  return (
+      <div>
+        <Outlet />
+      </div>
+  );
 }
 
 export default App
