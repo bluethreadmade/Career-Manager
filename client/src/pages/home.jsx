@@ -1,26 +1,16 @@
 /* DEPENDENCIES */
-import { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+
 
 /* HOMEPAGE */
-const Home = () => {
-  const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false)
-    }, 4000)
-
-    return () => clearTimeout(timer)
-  }, [])
+function Home(){
 
   // If videos are loaded, show videos
   return (
-    <div id="homepage" className="bg-image">
+    <div id="homepage">
       <div id="homepage-content">
-        <button className="borders" id="start-crafting">
-          Welcome!
-        </button>
+        <h1 className="flex items-center justify-center h-screen">
+          Welcome to Tailor
+        </h1>
       </div>
     </div>
   )
