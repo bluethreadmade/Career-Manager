@@ -1,5 +1,5 @@
 /* DEPENDENCIES */
-
+import React from 'react';
 
 /* HOMEPAGE */
 function Home(){
