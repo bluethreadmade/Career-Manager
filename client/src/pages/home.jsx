@@ -6,7 +6,7 @@ function Home(){
 
   // If videos are loaded, show videos
   return (
-    <div id="homepage" className="h-screen flex items-center justify-center">
+    <div id="homepage" >
         <h1>
           Welcome to Tailor
         </h1>
