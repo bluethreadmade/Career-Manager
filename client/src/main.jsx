@@ -5,7 +5,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css'; 
 
 import App from './App.jsx';
-import Home from './pages/home.jsx'; // Import Home component
+import Home from './pages/home.jsx';
+import Editor from './pages/editor.jsx';
 
 // Router setup with Home as a nested route
 const router = createBrowserRouter([
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: '/', // This is the nested route for the homepage
         element: <Home />, // Home component will be rendered inside the Outlet
+      },
+      {
+        path: '/editor',
+        element: <Editor />,
       },
     ],
   },
