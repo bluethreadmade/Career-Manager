@@ -1,0 +1,5 @@
+-- DROP DATABASE
+DROP DATABASE IF EXISTS career_manager;
+
+-- CREATE DATABASE
+CREATE DATABASE career_manager;
