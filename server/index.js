@@ -36,7 +36,7 @@ app.get('/', (req, res) => {
 });
 
 // sync sequelize models to the database, then turn on the server
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.DB_PORT || 5000;
 app.listen(PORT, async () => {
   try {
     await sequelize.authenticate();
