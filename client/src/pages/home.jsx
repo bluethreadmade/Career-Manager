@@ -1,5 +1,6 @@
 /* DEPENDENCIES */
 import React from 'react';
+import AccordionDemo from '../components/Accordian';
 
 /* HOMEPAGE */
 function Home(){
@@ -10,6 +11,7 @@ function Home(){
         <h1>
           Welcome to Tailor
         </h1>
+        <AccordionDemo></AccordionDemo>
     </div>
   )
 }

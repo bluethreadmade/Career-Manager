@@ -17,8 +17,8 @@ The next item on the roadmap is the goal management feature. This is currently u
 ### Frontend
 - React - UI Framework
 - Tailwind CSS - CSS Framework
+- Radix UI - Compenent Library, Icons
 - Print Styles (CSS @media print) - styling resumes to export as pdf
-- Icons - Lucide
 
 ### Backend
 - Node.js - runtime environment for running backend code (executes JavaScript on the backend)
