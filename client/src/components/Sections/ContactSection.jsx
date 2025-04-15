@@ -5,6 +5,7 @@ import {
   AccordionTrigger,
   AccordionContent,
 } from '../AccordianComponents'
+import CheckBox from '../CheckBox'
 
 // Display a 2 column list of contact datapoints
 // with checkboxes or something to signify which should be displayed or not
@@ -16,7 +17,10 @@ const ContactSection = () => (
   <AccordionItem value="item-1">
     <AccordionTrigger>Contact Information</AccordionTrigger>
     <AccordionContent>
-      Here is how to reach me.
+      <CheckBox label="Show Email" />
+      <CheckBox label="Show Phone Number" />
+      <CheckBox label="Show LinkedIn" />
+      <CheckBox label="Show Address" />    
     </AccordionContent>
   </AccordionItem>
 )

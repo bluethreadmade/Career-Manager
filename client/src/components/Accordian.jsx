@@ -4,7 +4,7 @@ import ContactSection from "./Sections/ContactSection";
 
 const AccordionWrap = () => (
   <Accordion.Root
-    className="w-[300px] rounded-md bg-mauve6 shadow-[0_2px_10px] shadow-black/5"
+    className="w-[300px] rounded-md bg-red-500 shadow-xl/30"
     type="single"
     defaultValue="item-1"
     collapsible
